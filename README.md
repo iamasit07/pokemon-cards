@@ -1,40 +1,42 @@
 # Pokémon Explorer
 
-A React.js application for exploring Pokémon using the PokéAPI. Browse through different Pokémon, filter by type, and view detailed information including stats and artwork.
+Pokémon Explorer is a modern React.js application for discovering and exploring Pokémon using the PokéAPI. With type-based filtering, beautiful responsive cards, and detailed Pokémon stats, the app offers an interactive experience for browsing, searching, and learning about different Pokémon.
 
 ## Features
 
 - Browse random Pokémon or filter by specific types
-- View Pokémon details including height, weight, and type information
-- Responsive design with beautiful cards layout
-- Type-based filtering with multiple selection support
-- Load more Pokémon functionality
+- View Pokémon details: stats, height, weight, and type information
+- Responsive design with elegant card layouts
+- Filter Pokémon by multiple types at once
+- "Load more" functionality for extended browsing
+
+![Preview](./public/pokemon-preview.png)
 
 ## Getting Started
 
-First, install the dependencies:
+Install dependencies:
 
 ```bash
 npm install
 ```
 
-Then, run the development server:
+Run the development server:
 
 ```bash
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
+Visit [http://localhost:5173](http://localhost:5173) in your browser to view the app.
 
-You can start editing the page by modifying `src/App.jsx`. The page auto-updates as you edit the file.
+Start editing by modifying `src/App.jsx`. Changes update automatically.
 
 ## Tech Stack
 
-- **React 18** - UI framework
-- **Vite** - Build tool and development server
-- **Tailwind CSS** - Styling and design system
-- **Lucide React** - Beautiful icons
-- **PokéAPI** - Pokémon data source
+- **React 18** – UI framework
+- **Vite** – Fast build tool & dev server
+- **Tailwind CSS** – Utility-first styling
+- **Lucide React** – Icon library
+- **PokéAPI** – Pokémon data source
 
 ## Project Structure
 
@@ -48,15 +50,15 @@ src/
 └── main.jsx          # React entry point
 ```
 
-## Build
+## Build & Preview
 
-To build the project for production:
+Build for production:
 
 ```bash
 npm run build
 ```
 
-To preview the production build:
+Preview the production build locally:
 
 ```bash
 npm run preview
